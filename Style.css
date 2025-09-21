@@ -1,17 +1,16 @@
-
 body {
   background-color: antiquewhite;
 }
 
 #landingPage,
 #quizPage {
-  max-width: 800px; 
+  max-width: 800px;
   width: 100%;
   min-height: 500px;
-  border: 3px solid #333; 
+  border: 3px solid #333;
   border-radius: 12px;
   padding: 20px;
-  margin: 30px auto; 
+  margin: 30px auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   background: #fff;
 }
@@ -25,7 +24,7 @@ body {
 
 #options .list-group-item {
   display: block;
-  width: 100%; 
+  width: 100%;
   max-width: 600px;
   margin: 10px auto;
   padding: 12px 20px;
@@ -35,16 +34,12 @@ body {
   text-align: center;
   transition: all 0.3s ease;
 }
-
-#options .list-group-item:hover {
-  background-color: #f1f1f1;
-}
-
 #options .selected {
   background-color: #1c1c1b;
   color: white;
   font-weight: bold;
 }
+
 #btn,
 #nextBtn,
 #prevBtn,
@@ -84,6 +79,7 @@ body {
 }
 
 @media (max-width: 992px) {
+
   #landingPage,
   #quizPage {
     max-width: 700px;
@@ -99,13 +95,23 @@ body {
     font-size: 16px;
   }
 
-  #btn, #nextBtn, #prevBtn, #submitBtn {
+  #options .selected {
+    background-color: #1c1c1b;
+    color: white;
+    font-weight: bold;
+  }
+
+  #btn,
+  #nextBtn,
+  #prevBtn,
+  #submitBtn {
     font-size: 15px;
     padding: 8px 14px;
   }
 }
 
 @media (max-width: 768px) {
+
   #landingPage,
   #quizPage {
     max-width: 100%;
@@ -124,8 +130,17 @@ body {
     padding: 10px;
   }
 
-  #btn, #nextBtn, #prevBtn, #submitBtn {
-    width: 100%;  
+  #options .selected {
+    background-color: #1c1c1b;
+    color: white;
+    font-weight: bold;
+  }
+
+  #btn,
+  #nextBtn,
+  #prevBtn,
+  #submitBtn {
+    width: 100%;
     margin: 8px 0;
   }
 }
@@ -149,9 +164,17 @@ body {
     padding: 8px;
   }
 
-  #btn, #nextBtn, #prevBtn, #submitBtn {
+  #options .selected {
+    background-color: #1c1c1b;
+    color: white;
+    font-weight: bold;
+  }
+
+  #btn,
+  #nextBtn,
+  #prevBtn,
+  #submitBtn {
     font-size: 14px;
     padding: 8px;
   }
 }
-
